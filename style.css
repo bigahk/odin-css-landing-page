@@ -39,7 +39,7 @@ header {
    justify-content: center;
    background-color: #1F2937;
    margin-top: 0;
-   gap: 10px
+   gap: 17px
 }
 
 .content-right {
@@ -94,15 +94,16 @@ header {
 /* Second Section */
 
 .second-main{
-   height: 60vh;
+   height: 55vh;
    border: 3px solid gold;
 }
 
 .second-head{
-   font-size: 40px
+   font-size: 36px;
+   padding: 25px;
 }
 
-.second-box{
+.second-container{
    margin:
 }
 
