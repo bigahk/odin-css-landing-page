@@ -72,7 +72,7 @@ header {
    color: #F9FAF8;
    border-radius: 5px;
    font-size: 18px;
-   font-weight: 500;
+   font-weight: 400;
    border: 0;
 }
 
@@ -144,8 +144,48 @@ header {
    font-weight: 100;
 }
 
-.quoter{
+.quoter {
    align-self: last baseline;
    font-size: 27px;
    font-weight: bold;
+}
+
+/* fourth section */
+
+.fourth-main {
+   height: 32vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.action-container {
+   background-color: #3882F6;
+   display: flex;
+   padding: 30px 150px;
+   border-radius: 6px;
+   justify-content: center;
+   color:#F9FAF8
+}
+
+.action-text {
+   align-self: last baseline;
+
+}
+
+.action-top{
+   margin-right: 90px;
+   flex-wrap: wrap;
+   width: 300px;
+}
+
+.action-button{
+   margin-top: 15px;
+   padding: 7px 25px;
+   background-color: #3882F6;
+   color: #F9FAF8;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: 400;
+   border: 2px solid #F9FAF8
 }
