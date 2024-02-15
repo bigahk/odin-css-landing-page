@@ -61,11 +61,11 @@ header {
    color: #F9FAF8;
 }
 
-.top-p{
+.top-p {
    font-size: 18px;
 }
 
-.top-button{
+.top-button {
    margin-top: 15px;
    padding: 7px 25px;
    background-color: #3882F6;
@@ -76,15 +76,15 @@ header {
    border: 0;
 }
 
-#top-header{
+#top-header {
    background-color: #1F2937;
 }
 
-.logo{
+.logo {
    color: #F9FAF8
 }
 
-#main-title{
+#main-title {
    font-size: 48px;
 }
 
@@ -93,23 +93,41 @@ header {
 
 /* Second Section */
 
-.second-main{
-   height: 55vh;
-   border: 3px solid gold;
+.second-main {
+   height: 57vh;
+   text-align: center;
 }
 
-.second-head{
+.second-head {
    font-size: 36px;
    padding: 25px;
 }
 
-.second-container{
-   margin:
+.second-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
 }
+
+.box {
+   border: 4px solid #3882F6;
+   height: 150px;
+   width: 150px;
+   align-items: center;
+   border-radius: 5px;
+   margin-bottom: 5px;
+}
+
+.box-text {
+   width: 150px;
+   color: grey;
+}
+
 
 /* Third Section */
 
-.third-main{
+.third-main {
    height: 45vh;
    border: 3px solid black;
 }
