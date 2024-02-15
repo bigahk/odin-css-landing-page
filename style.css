@@ -14,7 +14,9 @@ ul {
    gap: 30px;
 }
 
-.logo {}
+.logo {
+   font-size: 24px;
+}
 
 a {
    color: black;
@@ -49,21 +51,43 @@ header {
 }
 
 .content-left {
-   margin-left: 265px;
+   margin-left: 235px;
    flex: 2;
    display: flex;
    flex-wrap: wrap;
    padding: 50px;
 }
 
-.second-main{
-   display: flex;
-   justify-content: center;
-   gap: 100px;
+.top-p{
+   font-size: 18px;
 }
 
-.container{
-   border: 3px solid blue;
-   width: 100px;
-   height: 100px;
+
+/* Second Section */
+
+.second-main{
+   height: 60vh;
+   border: 3px solid gold;
+}
+
+.second-head{
+   font-size: 40px
+}
+
+.second-box{
+   margin:
+}
+
+/* Third Section */
+
+.third-main{
+   height: 45vh;
+   border: 3px solid black;
+}
+
+.italic {
+   display: flex;
+   justify-content: center;
+   border: 50px;
+
 }
