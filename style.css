@@ -128,13 +128,24 @@ header {
 /* Third Section */
 
 .third-main {
-   height: 45vh;
-   border: 3px solid black;
+   height: 49vh;
+   background-color: #E5E7EB;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-left: 400px;
+   padding-right: 400px;
 }
 
-.italic {
-   display: flex;
-   justify-content: center;
-   border: 50px;
+.quote {
+   font-size: 36px;
+   font-style: italic;
+   font-weight: 100;
+}
 
+.quoter{
+   align-self: last baseline;
+   font-size: 27px;
+   font-weight: bold;
 }
