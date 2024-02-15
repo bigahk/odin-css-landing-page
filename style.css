@@ -19,8 +19,9 @@ ul {
 }
 
 a {
-   color: black;
+   color: #E5E7EB;
    text-decoration: none;
+   font-size: 18px;
 }
 
 header {
@@ -33,15 +34,14 @@ header {
 
 .main {
    display: flex;
-   border: 3px solid black;
    height: 80vh;
    align-items: center;
    justify-content: center;
+   background-color: #1F2937;
 }
 
 .content-right {
    flex: 1;
-   border: 3px solid green;
    margin-right: 290px;
 }
 
@@ -52,10 +52,11 @@ header {
 
 .content-left {
    margin-left: 235px;
-   flex: 2;
+   flex: 1;
    display: flex;
    flex-wrap: wrap;
    padding: 50px;
+   color: #F9FAF8;
 }
 
 .top-p{
@@ -63,13 +64,22 @@ header {
 }
 
 .top-button{
-   margin-top: 10px;
-   padding: 5px 20px;
+   margin-top: 15px;
+   padding: 7px 25px;
    background-color: #3882F6;
-   color: #E5E7EB;
+   color: #F9FAF8;
    border-radius: 5px;
    font-size: 18px;
-   font-weight: bolder;
+   font-weight: 500;
+   border: 0;
+}
+
+#top-header{
+   background-color: #1F2937;
+}
+
+.logo{
+   color: #F9FAF8
 }
 
 
