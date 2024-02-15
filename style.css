@@ -34,10 +34,12 @@ header {
 
 .main {
    display: flex;
-   height: 80vh;
+   height: 60vh;
    align-items: center;
    justify-content: center;
    background-color: #1F2937;
+   margin-top: 0;
+   gap: 10px
 }
 
 .content-right {
@@ -81,6 +83,12 @@ header {
 .logo{
    color: #F9FAF8
 }
+
+#main-title{
+   font-size: 48px;
+}
+
+
 
 
 /* Second Section */
