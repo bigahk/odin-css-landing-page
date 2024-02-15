@@ -107,7 +107,7 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 30px;
+   gap: 40px;
 }
 
 .box {
@@ -115,7 +115,7 @@ header {
    height: 150px;
    width: 150px;
    align-items: center;
-   border-radius: 5px;
+   border-radius: 6px;
    margin-bottom: 5px;
 }
 
